@@ -1,0 +1,21 @@
+//
+// Prefix header for all source files of the 'Matchbook' target in the 'Matchbook' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import "GMLogRemap.h"
+#endif
+
+#if MAC_OS_X_VERSION_MIN_REQUIRED < MAC_OS_X_VERSION_10_5
+typedef unsigned int NSUInteger;
+typedef          int NSInteger;
+#endif
+
+// Removed until we have a pref to pick your own editor; hard-coding
+// to TextMate.app a little unfriendly
+#define DO_EDIT_TOOLBAR_BUTTON 1
+
+// Not as useful as we originally thought; replaced with "open in Finder"
+#define DO_TERMINAL_TOOLBAR_BUTTON 0
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.google.Matchbook.GoogleAppEngine-default</string>
+	<key>CFBundleGetInfoString</key>
+	<string>${GOOGLE_VERSIONINFO_FINDER}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleShortVersionString</key>
+	<string>${GOOGLE_VERSIONINFO_SHORT}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>DS10</string>
+	<key>CFBundleVersion</key>
+	<string>${GOOGLE_VERSIONINFO_LONG}</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>${GOOGLE_VERSIONINFO_FINDER}</string>
+</dict>
+</plist>
