@@ -1,0 +1,13 @@
+Google App Engine Mac Launcher
+http://code.google.com/p/google-appengine-mac-launcher
+http://code.google.com/appengine
+
+This project contains source code for the launcher, a Cocoa based
+developer tool for creating, running, and deploying Google App Engine
+applications.  This launcher is included in the the App Engine SDK for
+Mac.  The launcher delivered with the App Engine Windows SDK,
+GoogleAppEngineLauncher.exe, is also open source:
+http://code.google.com/p/google-appengine-wx-launcher
+
+An xcodeproj which compiles this launcher outside of the Google build
+environment will be available shortly.
